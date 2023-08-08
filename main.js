@@ -44,7 +44,7 @@ console.log("");
 
 let y = 1945;
 
-if ((y % 4 == 0 && y % 1 != 0) || y % 4 == 0) {
+if ((y % 4 == 0 && y % 100 != 0) || y % 4 == 0) {
   console.log(`[${y}] leap year.`);
 } else {
   console.log(`[${y}] not leap year.`);
